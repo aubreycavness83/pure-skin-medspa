@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pure Skin Medspa</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo"><img src="images/pure-skin-medspa-logo.png" alt="Pure Skin Medspa"
+                    class="nav-logo-img"></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-overlay" id="navOverlay"></div>
+            <div class="nav-menu" id="navMenu">
+                <a href="" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#featured-services" class="nav-link">Treatments</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faqs" class="nav-link">FAQs</a>
+                <a href="#" class="nav-link nav-cta open-modal">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="carousel" id="carousel">
+            <img src="images/63c436eea18db739850915e9_AdobeStock_355963913.jpg" alt="" class="slide active">
+            <img src="images/15645133112.webp" alt="" class="slide">
+            <img src="images/189748541541.jpg" alt="" class="slide">
+
+            <div class="hero-overlay">
+                <h1>Pure Skin Medspa</h1>
+                <p class="hero-subtitle">Reveal Your Natural Radiance</p>
+                <button class="hero-btn open-modal">Book Your Consultation</button>
+            </div>
+
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+
+            <div id="dotsContainer"></div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="12">0</h2>
+                    <p class="stat-label">Years in Business</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="14">0</h2>
+                    <p class="stat-label">Premium Services</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="335">0</h2>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container welcome-section">
+        <div class="welcome-text-wrap">
+            <h2 class="welcome-title">Your Private Escape At Pure Skin Medspa</h2>
+            <p class="subtitle">Reveal Your Most Radiant, Natural Self</p>
+            <p>At Pure Skin Medspa, we believe that true beauty is rooted in a deep sense of confidence. Our philosophy
+                centers on creating a sanctuary where the art of rejuvenation meets a dedicated commitment to your
+                personal well-being. Located in the heart of Phoenix, AZ, we invite you into a space designed to restore
+                your spirit and honor the unique vitality of your skin.
+
+                Our expert team is defined by a passion for excellence and a refined approach to care. We have
+                cultivated a tranquil, sophisticated atmosphere to ensure that every moment you spend with us is
+                entirely transformative. We pride ourselves on providing a bespoke experience where your comfort and
+                your aesthetic journey are our highest priorities.</p>
+        </div>
+        <div class="welcome-image-wrap">
+            <img src="images/67ab905571e04cf908c226c6_AdobeStock_572689046.jpg" alt="" class="welcome-image">
+        </div>
+    </section>
+
+    <section id="services" class="services-section" id="services">
+        <h2 class="services-title">Our Services</h2>
+        <p class="subtitle services-subtitle">Treatments Tailored to You</p>
+
+        <div class="container services-grid">
+            <a href="#" class="service-card-link">
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/AdobeStock_265009160.jpg" alt="Injectable Artistry">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Injectable Artistry</h3>
+                        <ul class="service-list">
+                            <li>Neuromodulators</li>
+                            <li>Dermal Fillers</li>
+                            <li>Lip Enhancements</li>
+                        </ul>
+                        <a href="#" class="service-link">Explore Treatments <span
+                                class="material-symbols-outlined">arrow_forward</span></a>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="service-card-link">
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/AdobeStock_285285037.jpg" alt="Advanced Lasers">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Advanced Lasers</h3>
+                        <ul class="service-list">
+                            <li>Skin Resurfacing</li>
+                            <li>Skin Tightening</li>
+                            <li>Laser Hair Removal</li>
+                            <li>Hair Restoration</li>
+                        </ul>
+                        <a href="#" class="service-link">Explore Treatments <span
+                                class="material-symbols-outlined">arrow_forward</span></a>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="service-card-link">
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/1484784151.jpg" alt="Aesthetic Definition">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Aesthetic Definition</h3>
+                        <ul class="service-list">
+                            <li>Brow Lamination</li>
+                            <li>Brow Tinting</li>
+                            <li>Lash Tinting</li>
+                            <li>Lash Extensions</li>
+                        </ul>
+                        <a href="#" class="service-link">Explore Treatments <span
+                                class="material-symbols-outlined">arrow_forward</span></a>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="service-card-link">
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/59874485.jpg" alt="Body Refined">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Body Refined</h3>
+                        <ul class="service-list">
+                            <li>Body Contouring</li>
+                            <li>IV Hydration</li>
+                            <li>BBL</li>
+                        </ul>
+                        <a href="#" class="service-link">Explore Treatments <span
+                                class="material-symbols-outlined">arrow_forward</span></a>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content">
+            <h2>The New Standard of Transformation</h2>
+            <p>At Pure Skin Medspa, we focus on helping you look and feel your best. We know that every skin journey is
+                personal, so we combine proven clinical methods with a straightforward, professional approach. Our goal
+                is to provide a space where you can get real results that help you feel more confident in your own skin.
+            </p>
+            <button class="parallax-btn" id="openModal">Book Your Consultation</button>
+        </div>
+    </section>
+
+    <!-- BOOKING MODAL -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h2 class="modal-title">Book Your Consultation</h2>
+            <p class="modal-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+            <form class="modal-form" id="bookingForm">
+                <div class="modal-form-row">
+                    <div class="modal-field">
+                        <label for="modalName">Full Name</label>
+                        <input type="text" id="modalName" placeholder="Your full name" required>
+                    </div>
+                    <div class="modal-field">
+                        <label for="modalPhone">Phone</label>
+                        <input type="tel" id="modalPhone" placeholder="(555) 123-4567" required>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="modalEmail">Email</label>
+                    <input type="email" id="modalEmail" placeholder="you@example.com" required>
+                </div>
+                <div class="modal-field">
+                    <label for="modalService">Service Interest</label>
+                    <select id="modalService" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="neuromodulators">Neuromodulators</option>
+                        <option value="dermal-fillers">Dermal Fillers</option>
+                        <option value="lip-enhancements">Lip Enhancements</option>
+                        <option value="body-contouring">Body Contouring</option>
+                        <option value="skin-tightening">Skin Tightening</option>
+                        <option value="laser-hair-removal">Laser Hair Removal</option>
+                        <option value="iv-hydration">IV Hydration</option>
+                        <option value="lash-extensions">Lash Extensions</option>
+                        <option value="brow-lamination">Brow Lamination & Tint</option>
+                        <option value="other">Other / Not Sure</option>
+                    </select>
+                </div>
+                <div class="modal-field">
+                    <label for="modalMessage">Message (Optional)</label>
+                    <textarea id="modalMessage" rows="3" placeholder="Tell us about your goals..."></textarea>
+                </div>
+                <button type="submit" class="modal-submit">Request Consultation</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="featured-services" class="container featured-section" id="treatments">
+        <h2 class="featured-title">Featured Treatments</h2>
+        <p class="subtitle featured-subtitle">Our Most Sought-After Services</p>
+
+        <div class="expanding-cards">
+            <div class="expand-card" style="background-image: url('images/AdobeStock_141629442.jpg');">
+                <div class="expand-card-overlay"></div>
+                <div class="expand-card-header">
+                    <h3>Neuromodulators</h3>
+                    <span class="expand-icon material-symbols-outlined">add</span>
+                </div>
+                <div class="expand-card-details">
+                    <p>Smooth fine lines and wrinkles with precision-placed injectable treatments including Botox,
+                        Dysport, Xeomin, and Jeuveau. These treatments are designed to create natural, refreshed
+                        results that preserve unique facial expressions while softening signs of aging.</p>
+                    <ul>
+                        <li>Forehead Lines</li>
+                        <li>Crow's Feet</li>
+                        <li>Frown Lines</li>
+                        <li>Brow Lift</li>
+                    </ul>
+                    <a href="#" class="expand-card-link">Learn More <span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+            </div>
+
+            <div class="expand-card" style="background-image: url('images/18596489454151.webp');">
+                <div class="expand-card-overlay"></div>
+                <div class="expand-card-header">
+                    <h3>Body Contouring</h3>
+                    <span class="expand-icon material-symbols-outlined">add</span>
+                </div>
+                <div class="expand-card-details">
+                    <p>Sculpt and define a natural shape using non-invasive technology designed for real, visible
+                        results across targeted areas. This service offers a professional way to address stubborn
+                        concerns that do not always respond to traditional diet and exercise.
+                    </p>
+                    <ul>
+                        <li>Fat Reduction</li>
+                        <li>Skin Tightening</li>
+                        <li>Cellulite Smoothing</li>
+                        <li>Muscle Definition</li>
+                    </ul>
+                    <a href="#" class="expand-card-link">Learn More <span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+            </div>
+
+            <div class="expand-card" style="background-image: url('images/1854554151.jpg');">
+                <div class="expand-card-overlay"></div>
+                <div class="expand-card-header">
+                    <h3>Skin Resurfacing</h3>
+                    <span class="expand-icon material-symbols-outlined">add</span>
+                </div>
+                <div class="expand-card-details">
+                    <p>Reveal a clearer and more even complexion by targeting specific skin texture and tone
+                        concerns through advanced clinical methods. This process gently removes damaged skin cells
+                        to encourage new growth and a smoother surface.</p>
+                    <ul>
+                        <li>Sun Damage</li>
+                        <li>Acne Scarring</li>
+                        <li>Fine Lines</li>
+                        <li>Uneven Tone</li>
+                    </ul>
+                    <a href="#" class="expand-card-link">Learn More <span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+            </div>
+
+
+            <div class="expand-card" style="background-image: url('images/AdobeStock_294812610.jpg');">
+                <div class="expand-card-overlay"></div>
+                <div class="expand-card-header">
+                    <h3>Lash Extensions</h3>
+                    <span class="expand-icon material-symbols-outlined">add</span>
+                </div>
+                <div class="expand-card-details">
+                    <p>Wake up feeling ready every single morning with a custom-tailored application process that
+                        focuses on artistic precision. This service honors the health of natural lashes while adding
+                        a refined level of length and volume.</p>
+                    <ul>
+                        <li>Added Volume</li>
+                        <li>Length & Curl</li>
+                        <li>Custom Shapes</li>
+                        <li>Daily Ease</li>
+                    </ul>
+                    <a href="#" class="expand-card-link">Learn More <span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="testimonials" class="reviews-section" id="reviews">
+        <div class="container">
+            <h2 class="reviews-title">What Our Clients Say</h2>
+            <p class="subtitle reviews-subtitle">Real Results, Real Stories</p>
+
+            <div class="reviews-slider" id="reviewsSlider">
+                <div class="reviews-track" id="reviewsTrack">
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"The experience was professional from start to finish with real, visible
+                            results in my target areas. Pure Skin Medspa offers a comfortable environment for body
+                            refinement. I feel much more confident now."</p>
+                        <div class="review-author">
+                            <p class="review-name">Jessica M.</p>
+                            <p class="review-service">Body Contouring</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I wake up feeling ready every morning without needing a drop of makeup.
+                            The lash artistry is precise and the application was so gentle I actually fell asleep.
+                            Highly recommend."</p>
+                        <div class="review-author">
+                            <p class="review-name">Amanda R.</p>
+                            <p class="review-service">Lash Extensions</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"The subtle volume added to my cheeks has completely restored my youthful
+                            profile. It is a straightforward process with immediate results that look completely
+                            authentic. I am beyond impressed."</p>
+                        <div class="review-author">
+                            <p class="review-name">Katherine M.</p>
+                            <p class="review-service">Dermal Fillers</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"My brows now have a perfectly polished shape that stays in place all day
+                            long, and I would give the experience at Pure Skin Medspa 5 stars! This service has
+                            completely simplified my morning beauty routine and given my eyes a much more 'open' and
+                            refreshed look."</p>
+                        <div class="review-author">
+                            <p class="review-name">Sophia K.</p>
+                            <p class="review-service">Brow Lamination & Tint</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I was worried about looking 'frozen,' but the results are incredibly
+                            natural. My forehead is smooth and I feel so much more refreshed. I wouldn't trust anyone
+                            else with my face."</p>
+                        <div class="review-author">
+                            <p class="review-name">Elena R.</p>
+                            <p class="review-service">Neuromodulators</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"This is my secret weapon for feeling recharged and healthy during a busy
+                            week. The setting is luxurious and the hydration boost at Pure Skin Medspa is almost
+                            instant. A perfect addition to my wellness routine."</p>
+                        <div class="review-author">
+                            <p class="review-name">Rachel W.</p>
+                            <p class="review-service">IV Hydration</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I was initially very nervous about getting fillers, but the results at
+                            Pure Skin Medspa made me feel completely at ease. My lips now look fuller and perfectly
+                            balanced—exactly what I wanted for a more refined and polished look. I give this experience
+                            5 stars!"
+                        </p>
+                        <div class="review-author">
+                            <p class="review-name">Natalie P.</p>
+                            <p class="review-service">Lip Enhancements</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I finally decided to start my treatments at Pure Skin Medspa and it
+                            truly deserves 5 stars! The process is incredibly professional, remarkably fast, and has
+                            already significantly reduced hair growth in my targeted areas."</p>
+                        <div class="review-author">
+                            <p class="review-name">Taylor H.</p>
+                            <p class="review-service">Laser Hair Removal</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I am amazed at the definition in my jawline after completing my
+                            treatment plan. The non-invasive technology at Pure Skin Medspa provided exactly the lift I
+                            was looking for. It was worth every penny."</p>
+                        <div class="review-author">
+                            <p class="review-name">Brianna C.</p>
+                            <p class="review-service">Skin Tightening</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-controls">
+                <button class="review-btn review-prev" id="reviewPrev">&#10094;</button>
+                <div class="review-dots" id="reviewDots"></div>
+                <button class="review-btn review-next" id="reviewNext">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faqs" class="container faq-section" id="faq">
+        <div class="faq-title-wrap"></div>
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <p class="subtitle faq-subtitle">Everything You Need to Know</p>
+
+        <div class="faq-grid">
+            <div class="faq-image-wrap">
+                <img src="images/AdobeStock_143024171.jpg" alt="Pure Skin Medspa FAQ" class="faq-image">
+            </div>
+
+            <div class="faq-accordions">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What should I expect during my first visit?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Your journey begins with a private consultation where we evaluate your skin and create a
+                            bespoke treatment plan. We walk you through every step so you feel informed and comfortable
+                            before any procedure begins.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I know which treatment is right for me?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our providers evaluate your unique anatomy and desired outcomes across our skin, body, and
+                            lash services to recommend the most effective options. We specialize in "Refining Beauty"
+                            with a highly customized approach for every client, whether you are looking for a subtle
+                            glow or a total transformation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Are your treatments safe for all skin types and tones?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We utilize advanced, medical-grade technology and clinical techniques that are
+                            proven to be safe for a diverse range of skin profiles.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there any downtime associated with Injectables?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most Neuromodulators and Dermal Fillers require zero downtime, allowing you to return to your
+                            daily routine immediately. Our 5-star technique ensures your results look natural and
+                            polished from the moment you leave.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long do the results of Laser Hair Removal typically last?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our advanced technology provides significant, long-term hair reduction after a series of 6–8
+                            sessions. While the results are permanent, we recommend occasional maintenance to keep the
+                            area perfectly smooth.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What makes the Pure Skin experience unique?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our approach focuses on structural balance and subtle enhancements that honor your unique
+                            anatomy. Our goal is for you to look like a refreshed, well-rested version of yourself—never
+                            done or over-treated.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I book a private event or Beauty Suite experience?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, Pure Skin Medspa offers exclusive after-hours bookings for small groups looking for a
+                            private, luxury aesthetic experience. It is the ultimate way to prep for a wedding or
+                            special event with your inner circle in a minimalist, high-end setting.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you offer seasonal treatment packages?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We frequently curate seasonal Editorial Edits that combine our most popular services like IV
+                            Hydration and Skin Resurfacing at a specialized rate. These are designed to help your skin
+                            and body transition through the changing seasons while maintaining a 5-star glow.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What should I wear to my Body Contouring appointment?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We suggest wearing loose, comfortable clothing that allows easy access to the targeted
+                            treatment areas. This helps you stay relaxed throughout the session and makes the transition
+                            back to your daily routine completely seamless.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long does a typical IV Hydration session last?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most of our infusion treatments are completed within 45 to 60 minutes in our quiet,
+                            minimalist lounge. It is designed to be a meditative break in your day that leaves you
+                            feeling physically recharged and mentally clear.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Will Lash Extensions damage my natural lashes over time?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our application technique prioritizes the health of your natural hair cycle by using
+                            lightweight fibers and medical-grade adhesive. We ensure each extension is perfectly
+                            isolated so your natural lashes continue to grow strong and healthy between appointments.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I schedule a consultation and a treatment on the same day?</span>
+                        <span class="faq-icon material-symbols-outlined">add</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We often accommodate same-day services for our non-invasive treatments like Brow Lamination
+                            or IV Hydration following a brief initial assessment. This allows you to begin your
+                            aesthetic journey immediately while ensuring the plan is perfectly safe for your specific
+                            needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container cta-grid">
+            <div class="cta-text">
+                <h2 class="cta-title">Ready to Reveal Your Best Self?</h2>
+                <p class="cta-subtitle">Experience aesthetic precision at Pure Skin Medspa in Phoenix, AZ. Our curated
+                    treatments from Neuromodulators and Dermal Fillers to Skin Tightening and Body Contouring deliver
+                    transformative visible results. Whether you seek Skin Resurfacing, IV Hydration, or Lash and
+                    Brow Artistry, our team provides the specialized care your goals require. Start your most radiant
+                    chapter today.</p>
+                <a href="#" class="cta-btn open-modal">Schedule An Appointment</a>
+            </div>
+            <div class="cta-image-wrap">
+                <img src="images/665767cba298e35c0c695a8e_48588484541.webp" alt="Pure Skin MedSpa consultation"
+                    class="cta-image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#featured-services">Treatments</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-logo-col">
+                <img src="images/pure-skin-medspa-logo.png" alt="Pure Skin MedSpa Logo" class="footer-logo">
+                <a href="#" class="footer-cta open-modal">Schedule An Appointment</a>
+            </div>
+            <div class="footer-col footer-contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><span class="material-symbols-outlined">location_on</span> 1234 W. Main Street, Phoenix, AZ</li>
+                    <li><span class="material-symbols-outlined">phone</span> (602) 123-4567</li>
+                    <li><span class="material-symbols-outlined">mail</span> test@example.com</li>
+                    <li><span class="material-symbols-outlined">schedule</span> Mon – Sat: 9AM – 6PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pure Skin MedSpa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
